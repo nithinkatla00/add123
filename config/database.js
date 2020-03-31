@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV === 'production') {
     module.exports = {
-        database: "mongodb://nithinkatla00:katlanithin333@cluster0-shard-00-00-dpvaf.mongodb.net:27017,cluster0-shard-00-01-dpvaf.mongodb.net:27017,cluster0-shard-00-02-dpvaf.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+        database: "mongodb+srv://nithinkatla00:katlanithin333@cluster0-dpvaf.mongodb.net/test?retryWrites=true&w=majority",
         secret: 'yoursecret'
     };
 }else {
